@@ -5,9 +5,7 @@ import TitreNiv1 from "../components/TitreNiv1.vue";
 
 <template>
   <main>
-    <div class="m-auto">
       <TitreNiv1>Hello !</TitreNiv1>
-    </div>
     <div class="flex space-x-5">
       <MyButton type="primary">
         button 1
