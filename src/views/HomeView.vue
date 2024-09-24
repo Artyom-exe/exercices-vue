@@ -1,11 +1,12 @@
 <script setup>
-import MyButton from "../components/ButtonComponent.vue"; // Assure-toi que le chemin est correct
+import MyButton from "../components/ButtonComponent.vue";
+import TitreNiv1 from "../components/TitreNiv1.vue";
 </script>
 
 <template>
   <main>
     <div class="m-auto">
-      <h1>Hello !</h1>
+      <TitreNiv1>Hello !</TitreNiv1>
     </div>
     <div class="flex space-x-5">
       <MyButton type="primary">
