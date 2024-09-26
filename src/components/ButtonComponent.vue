@@ -22,7 +22,7 @@ const props = defineProps({
         'bg-red-200 text-red-800':
         props.type === 'danger',
         'bg-green-200 text-green-800':
-        props.type === 'secondary', 'cursor-not-allowed opacity-50': props.isDisabled
+        props.type === 'secondary', 'cursor-not-allowed': props.isDisabled
     }" :disabled="props.isDisabled">
         <slot></slot>
     </button>
